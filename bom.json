@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-18T21:41:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-kanzlei-ai-sanitizer",
+      "version": "1.2.2",
+      "description": "Replaces court file numbers, IBANs, e-mail addresses, tax IDs, phone numbers, names after a title and amounts in a text with placeholders and puts them back into the answer; REST routes, WP-CLI, an admin simulator and an HMAC-chained log. Sends nothing to AI providers.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-kanzlei-ai-sanitizer@1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "70caa554a0b0707901c56a582c412867d0e759da6acdff9aa8ef8457db84d898"
+        }
+      ]
+    }
+  },
+  "components": []
+}

@@ -1,0 +1,525 @@
+# Translation of wm-kanzlei-ai-sanitizer in pt_PT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-kanzlei-ai-sanitizer 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-kanzlei-ai-"
+"sanitizer\n"
+"POT-Creation-Date: 2026-11-21T13:52:08+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:53+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-kanzlei-ai-sanitizer\n"
+
+#. Plugin Name of the plugin
+#: wm-kanzlei-ai-sanitizer.php includes/Admin/AdminDashboard.php:85
+msgid "WM Kanzlei AI Sanitizer"
+msgstr "WM Kanzlei AI Sanitizer"
+
+#. Plugin URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+
+#. Description of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid ""
+"Replaces court file numbers, IBANs, e-mail addresses, tax IDs, phone "
+"numbers, names after a title and amounts in a text with placeholders and "
+"puts them back into the answer; REST routes, WP-CLI, an admin simulator and "
+"an HMAC-chained log. Sends nothing to AI providers."
+msgstr ""
+"Substitui números de processo judicial, IBAN, endereços de e-mail, "
+"identificações fiscais, números de telefone, nomes após título e montantes "
+"num texto por marcadores de posição e volta a inseri-los na resposta; rotas "
+"REST, WP-CLI, simulador de administração e registo encadeado por HMAC. Não "
+"envia nada para fornecedores de IA."
+
+#. Author of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:64
+msgid "Aktenzeichen"
+msgstr "Números de processo"
+
+#: includes/Admin/AdminDashboard.php:65
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/Admin/AdminDashboard.php:66
+msgid "E-Mail-Adressen"
+msgstr "Endereços de e-mail"
+
+#: includes/Admin/AdminDashboard.php:67
+msgid "Steuer-ID (11 Ziffern)"
+msgstr "Identificação fiscal (11 dígitos)"
+
+#: includes/Admin/AdminDashboard.php:68
+msgid "Telefonnummern"
+msgstr "Números de telefone"
+
+#: includes/Admin/AdminDashboard.php:69
+msgid "Namen nach Anrede oder Rolle"
+msgstr "Nomes após título ou função"
+
+#: includes/Admin/AdminDashboard.php:70
+msgid "Geldbeträge"
+msgstr "Montantes monetários"
+
+#: includes/Admin/AdminDashboard.php:76
+msgid ""
+"Nicht erkannt werden: Namen ohne Anrede oder Rolle („Max Mustermann“), "
+"Firmennamen, Adressen, Geburtsdaten, Steuernummern, USt-IdNr., "
+"Sozialversicherungs-, Krankenversicherungs- und Ausweisnummern, "
+"Registernummern, Kennzeichen, Gesundheitsangaben und interne Aktenzeichen "
+"wie „2024/0815-MK“. Den ersetzten Text vor dem Versand selbst prüfen."
+msgstr ""
+"Não são detetados: nomes sem título ou função («Max Mustermann»), nomes de "
+"empresas, moradas, datas de nascimento, números fiscais, NIF comunitário, "
+"números de segurança social, seguro de saúde ou documento de identificação, "
+"números de registo, matrículas, dados de saúde e referências internas como "
+"«2024/0815-MK». Verifique sempre o texto substituído antes do envio."
+
+#: includes/Admin/AdminDashboard.php:116
+msgid "Platzhalter statt erkannter Werte"
+msgstr "Marcadores em vez de valores detetados"
+
+#: includes/Admin/AdminDashboard.php:117
+msgid ""
+"Ersetzt Aktenzeichen, IBAN, E-Mail, Steuer-ID, Telefonnummern, Namen nach "
+"einer Anrede und Geldbeträge. Sendet nichts an KI-Anbieter."
+msgstr ""
+"Substitui números de processo, IBAN, e-mail, identificação fiscal, "
+"telefones, nomes após título e montantes. Não envia nada para fornecedores "
+"de IA."
+
+#: includes/Admin/AdminDashboard.php:123
+#: includes/Integrations/EcosystemBridge.php:73
+msgid "Aufrufe"
+msgstr "Chamadas"
+
+#: includes/Admin/AdminDashboard.php:127 includes/Admin/AdminDashboard.php:345
+#: includes/Integrations/EcosystemBridge.php:69
+msgid "Ersetzte Werte"
+msgstr "Valores substituídos"
+
+#: includes/Admin/AdminDashboard.php:131
+#: includes/Integrations/EcosystemBridge.php:81
+msgid "Aktive Typen"
+msgstr "Tipos ativos"
+
+#: includes/Admin/AdminDashboard.php:136
+msgid "Simulator öffnen"
+msgstr "Abrir simulador"
+
+#: includes/Admin/AdminDashboard.php:155 includes/Admin/AdminDashboard.php:281
+msgid "Kanzlei AI Sanitizer"
+msgstr "Kanzlei AI Sanitizer"
+
+#: includes/Admin/AdminDashboard.php:156
+msgid "KI-Sanitizer"
+msgstr "Sanitizador IA"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Keine Berechtigung."
+msgstr "Sem permissão."
+
+#: includes/Admin/AdminDashboard.php:221
+msgid "Übersicht"
+msgstr "Visão geral"
+
+#: includes/Admin/AdminDashboard.php:222 includes/Admin/AdminDashboard.php:377
+msgid "Simulator"
+msgstr "Simulador"
+
+#: includes/Admin/AdminDashboard.php:223
+msgid "Einstellungen"
+msgstr "Definições"
+
+#: includes/Admin/AdminDashboard.php:224 includes/Admin/AdminDashboard.php:493
+msgid "Protokoll"
+msgstr "Registo"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "Begriffe"
+msgstr "Glossário"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"Ersetzt erkannte Werte in einem Text durch Platzhalter und setzt sie in der "
+"Antwort wieder ein. Das Plugin sendet nichts an KI-Anbieter."
+msgstr ""
+"Substitui valores detetados num texto por marcadores e volta a inseri-los na "
+"resposta. O plugin não envia nada para fornecedores de IA."
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Teil der WM-Suite-Pluginfamilie"
+msgstr "Parte da família de plugins WM Suite"
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Standalone"
+msgstr "Autónomo"
+
+#: includes/Admin/AdminDashboard.php:291
+msgid "KEINE EXTERNEN ANFRAGEN"
+msgstr "SEM PEDIDOS EXTERNOS"
+
+#: includes/Admin/AdminDashboard.php:297
+msgid "Einstellungen gespeichert."
+msgstr "Definições guardadas."
+
+#: includes/Admin/AdminDashboard.php:300
+msgid "Bereiche"
+msgstr "Secções"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Aufrufe von /sanitize"
+msgstr "Chamadas a /sanitize"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid "Zeilen in der Sitzungstabelle"
+msgstr "Linhas na tabela de sessões"
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Summe über alle Aufrufe"
+msgstr "Soma de todas as chamadas"
+
+#: includes/Admin/AdminDashboard.php:350
+#: includes/Integrations/EcosystemBridge.php:77
+msgid "Protokollzeilen"
+msgstr "Linhas do registo"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "alle Zeilen, auch aus früheren Versionen"
+msgstr "todas as linhas, incluindo versões anteriores"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Was das Plugin tut"
+msgstr "O que faz o plugin"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid ""
+"POST /wp-json/wm-kanzlei/v1/sanitize (Rolle mit edit_posts) sucht im Text "
+"nach den aktiven Typen, ersetzt jeden Wert durch einen Platzhalter wie "
+"{{IBAN_…}} und gibt den Text, die Zuordnung Platzhalter → Wert und die "
+"Sitzungskennung zurück. Die Zuordnung wird nicht gespeichert."
+msgstr ""
+"POST /wp-json/wm-kanzlei/v1/sanitize (perfil com edit_posts) procura no "
+"texto os tipos ativos, substitui cada valor por um marcador como {{IBAN_…}} "
+"e devolve o texto, o mapeamento marcador → valor e o ID da sessão. O "
+"mapeamento não é guardado."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid ""
+"Den ersetzten Text sendet die Anwendung, die das Plugin aufruft, selbst an "
+"einen KI-Dienst. POST /proxy antwortet mit 501: Das Plugin ist mit keinem "
+"Anbieter verbunden."
+msgstr ""
+"A aplicação que invoca o plugin envia por si própria o texto substituído "
+"para um serviço de IA. POST /proxy responde com 501: o plugin não está "
+"ligado a nenhum fornecedor."
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"POST /rehydrate setzt die Werte mit der zurückgesandten Zuordnung wieder in "
+"die Antwort ein."
+msgstr ""
+"POST /rehydrate volta a colocar os valores na resposta com o mapeamento "
+"enviado."
+
+#: includes/Admin/AdminDashboard.php:362
+msgid ""
+"Jeder Aufruf von /sanitize schreibt eine Sitzungszeile (Nutzer, Anzahl, "
+"Zeit) und eine Protokollzeile (gefundene Typen) mit HMAC-Siegel, das an die "
+"vorige Zeile gekettet ist. Der Text selbst wird nicht gespeichert."
+msgstr ""
+"Cada chamada a /sanitize escreve uma linha de sessão (utilizador, contagem, "
+"hora) e uma linha de registo (tipos encontrados) com selo HMAC encadeado à "
+"linha anterior. O próprio texto não é guardado."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Aktive Typen:"
+msgstr "Tipos ativos:"
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "keine"
+msgstr "nenhum"
+
+#: includes/Admin/AdminDashboard.php:378
+msgid ""
+"Zeigt, was /sanitize mit einem Text macht, mit den aktiven Typen. Hier wird "
+"nichts gespeichert und nichts protokolliert."
+msgstr ""
+"Mostra o que /sanitize faz a um texto com os tipos ativos. Aqui nada é "
+"guardado nem registado."
+
+#: includes/Admin/AdminDashboard.php:381
+msgid "Text"
+msgstr "Texto"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "Werte ersetzen"
+msgstr "Substituir valores"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "Beispieltext laden"
+msgstr "Carregar texto de exemplo"
+
+#: includes/Admin/AdminDashboard.php:394
+msgid "Prüfhinweise"
+msgstr "Avisos de revisão"
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "Ersetzter Text"
+msgstr "Texto substituído"
+
+#. translators: %d: number of values replaced
+#: includes/Admin/AdminDashboard.php:411
+#, php-format
+msgid "%d Wert ersetzt"
+msgid_plural "%d Werte ersetzt"
+msgstr[0] "%d valor substituído"
+msgstr[1] "%d valores substituídos"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Typ"
+msgstr "Tipo"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Wert"
+msgstr "Valor"
+
+#: includes/Admin/AdminDashboard.php:437
+msgid "Welche Typen ersetzt werden"
+msgstr "Que tipos são substituídos"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"Gilt für /sanitize, WP-CLI und den Simulator. Ein abgeschalteter Typ bleibt "
+"im Text stehen."
+msgstr ""
+"Aplica-se a /sanitize, WP-CLI e ao simulador. Um tipo desativado permanece "
+"no texto."
+
+#: includes/Admin/AdminDashboard.php:443
+msgid "Typen"
+msgstr "Tipos"
+
+#: includes/Admin/AdminDashboard.php:454 includes/Admin/AdminDashboard.php:455
+msgid "Deinstallation"
+msgstr "Desinstalação"
+
+#: includes/Admin/AdminDashboard.php:459
+msgid ""
+"Beim Löschen des Plugins alle Optionen sowie die Sitzungs- und "
+"Protokolltabellen entfernen (Standard: aus, Protokoll bleibt erhalten)"
+msgstr ""
+"Ao eliminar o plugin, remover todas as opções e as tabelas de sessões e de "
+"registo (predefinição: desligado, o registo é mantido)"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "Speichern"
+msgstr "Guardar"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid "Alle Typen einschalten"
+msgstr "Ativar todos os tipos"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid ""
+"Es gibt keine Einstellung für einen KI-Anbieter oder eine Aufbewahrungszeit: "
+"Das Plugin ist mit keinem Anbieter verbunden und speichert die Zuordnung "
+"nicht. Sitzungs- und Protokollzeilen bleiben beim Löschen des Plugins "
+"erhalten, sofern die Option zur Deinstallation oben nicht eingeschaltet ist."
+msgstr ""
+"Não existe definição para fornecedor de IA ou prazo de retenção: o plugin "
+"não está ligado a nenhum fornecedor e não guarda o mapeamento. As linhas de "
+"sessão e registo mantêm-se ao eliminar o plugin, salvo se a opção de "
+"desinstalação acima estiver ativada."
+
+#: includes/Admin/AdminDashboard.php:485
+msgid ""
+"Kette geprüft: jede versiegelte Zeile passt zu ihrem Siegel und zur vorigen "
+"Zeile."
+msgstr ""
+"Cadeia verificada: cada linha selada corresponde ao seu selo e à linha "
+"anterior."
+
+#: includes/Admin/AdminDashboard.php:486
+msgid "Noch keine Protokollzeilen."
+msgstr "Ainda sem linhas no registo."
+
+#: includes/Admin/AdminDashboard.php:487
+msgid ""
+"Nur Zeilen aus der Zeit vor der Kette: nichts ist versiegelt, nichts lässt "
+"sich prüfen."
+msgstr ""
+"Apenas linhas anteriores à cadeia: nada está selado, nada pode ser "
+"verificado."
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Kette gebrochen."
+msgstr "Cadeia quebrada."
+
+#. translators: 1: sealed rows, 2: rows written before the chain
+#: includes/Admin/AdminDashboard.php:503
+#, php-format
+msgid "%1$d versiegelt, %2$d vor der Kette."
+msgstr "%1$d seladas, %2$d antes da cadeia."
+
+#: includes/Admin/AdminDashboard.php:507
+msgid ""
+"Eine Zeile hält fest, dass /sanitize aufgerufen wurde und welche Typen "
+"gefunden wurden, nicht den Text und nicht, ob oder wohin er gesendet wurde. "
+"Zeilen vor der Kette stammen aus früheren Versionen, darunter Beispielzeilen "
+"des entfernten Demo-Knopfs. Wer die Datenbank und wp-config.php schreiben "
+"kann, kann die Kette neu versiegeln."
+msgstr ""
+"Cada linha regista que /sanitize foi chamado e que tipos foram encontrados, "
+"não o texto nem se ou para onde foi enviado. As linhas anteriores à cadeia "
+"provêm de versões antigas, incluindo exemplos do botão de demonstração "
+"removido. Quem puder escrever na base de dados e no wp-config.php pode "
+"voltar a selar a cadeia."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "Nr."
+msgstr "N.º"
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Sitzung"
+msgstr "Sessão"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid "Aktion"
+msgstr "Ação"
+
+#: includes/Admin/AdminDashboard.php:515
+msgid "Gefundene Typen"
+msgstr "Tipos encontrados"
+
+#: includes/Admin/AdminDashboard.php:516
+msgid "Kette"
+msgstr "Cadeia"
+
+#: includes/Admin/AdminDashboard.php:517
+msgid "Zeit (UTC)"
+msgstr "Hora (UTC)"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "vor der Kette"
+msgstr "antes da cadeia"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "versiegelt"
+msgstr "selada"
+
+#: includes/Admin/AdminDashboard.php:534
+msgid "Keine Zeilen."
+msgstr "Sem linhas."
+
+#: includes/Admin/AdminDashboard.php:546
+msgid "Platzhalter"
+msgstr "Marcadores"
+
+#: includes/Admin/AdminDashboard.php:547
+msgid ""
+"Ein Wert wird durch {{TYP_…}} ersetzt. Der Teil nach dem Typ ist ein HMAC "
+"des Werts mit einem Zufallsschlüssel je Aufruf; ohne die Zuordnung lässt er "
+"sich nicht zurückrechnen."
+msgstr ""
+"Um valor é substituído por {{TIPO_…}}. A parte após o tipo é um HMAC do "
+"valor com chave aleatória por chamada; sem o mapeamento não é possível "
+"revertê-lo."
+
+#: includes/Admin/AdminDashboard.php:550
+msgid "Pseudonymisierung, nicht Anonymisierung"
+msgstr "Pseudonimização, não anonimização"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid ""
+"Wer die Zuordnung hat, stellt die Werte wieder her. Solche Daten nennt die "
+"DSGVO pseudonymisiert (Art. 4 Nr. 5); nach Erwägungsgrund 26 bleiben sie "
+"Informationen über eine identifizierbare Person. Werte, die das Plugin nicht "
+"erkennt, bleiben ohnehin im Klartext."
+msgstr ""
+"Quem detém o mapeamento repõe os valores. O RGPD designa estes dados como "
+"pseudonimizados (art. 4.º n.º 5); segundo o considerando 26 continuam a ser "
+"informação sobre uma pessoa identificável. Valores não detetados permanecem "
+"em texto simples."
+
+#: includes/Admin/AdminDashboard.php:554
+msgid "Wiedereinsetzen"
+msgstr "Reposição"
+
+#: includes/Admin/AdminDashboard.php:555
+msgid ""
+"/rehydrate ersetzt die Platzhalter in einer Antwort auf dem WordPress-Server "
+"durch die Werte aus der mitgesandten Zuordnung."
+msgstr ""
+"/rehydrate substitui os marcadores numa resposta no servidor WordPress pelos "
+"valores do mapeamento enviado."
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Was das Plugin nicht entscheidet"
+msgstr "O que o plugin não decide"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid ""
+"Ob ein Text an einen Dienstleister gehen darf und unter welchen Bedingungen "
+"(§ 203 StGB, § 43e BRAO, DSGVO), entscheidet das Plugin nicht, und es stellt "
+"keine Bescheinigung darüber aus."
+msgstr ""
+"Se e em que condições um texto pode ser entregue a um prestador de serviços "
+"(§ 203 StGB, § 43e BRAO, RGPD) não é decidido pelo plugin, que não emite "
+"qualquer certificado sobre isso."
+
+#: includes/Integrations/EcosystemBridge.php:43
+msgid "WM Kanzlei Sanitizer Statistik"
+msgstr "Estatísticas WM Kanzlei Sanitizer"
+
+#: includes/Integrations/EcosystemBridge.php:56
+msgid "WM Kanzlei Sanitizer Kennzahl"
+msgstr "Indicador WM Kanzlei Sanitizer"
+
+#: includes/Integrations/EcosystemBridge.php:60
+msgid ""
+"Gibt aggregierte Zähler des KI-Sanitizers aus (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+msgstr ""
+"Apresenta contadores agregados do sanitizador IA (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+
+#: includes/Integrations/EcosystemBridge.php:64
+msgid "Kennzahl"
+msgstr "Indicador"
+
+#: includes/Integrations/EcosystemBridge.php:85
+msgid "Kettenstatus"
+msgstr "Estado da cadeia"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

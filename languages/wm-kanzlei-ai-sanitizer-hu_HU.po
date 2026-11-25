@@ -1,0 +1,526 @@
+# Translation of wm-kanzlei-ai-sanitizer in hu_HU
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-kanzlei-ai-sanitizer 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-kanzlei-ai-"
+"sanitizer\n"
+"POT-Creation-Date: 2026-11-21T13:52:08+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:53+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-kanzlei-ai-sanitizer\n"
+
+#. Plugin Name of the plugin
+#: wm-kanzlei-ai-sanitizer.php includes/Admin/AdminDashboard.php:85
+msgid "WM Kanzlei AI Sanitizer"
+msgstr "WM Kanzlei AI Sanitizer"
+
+#. Plugin URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+
+#. Description of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid ""
+"Replaces court file numbers, IBANs, e-mail addresses, tax IDs, phone "
+"numbers, names after a title and amounts in a text with placeholders and "
+"puts them back into the answer; REST routes, WP-CLI, an admin simulator and "
+"an HMAC-chained log. Sends nothing to AI providers."
+msgstr ""
+"Helyőrzőkre cseréli a bírósági ügyszámokat, IBAN-számokat, e-mail-címeket, "
+"adóazonosítókat, telefonszámokat, megszólítás utáni neveket és "
+"pénzösszegeket a szövegben, majd visszahelyezi őket a válaszba; REST-"
+"útvonalak, WP-CLI, adminisztrációs szimulátor és HMAC-láncolt napló. Nem "
+"küld adatot MI-szolgáltatóknak."
+
+#. Author of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:64
+msgid "Aktenzeichen"
+msgstr "Ügyszámok"
+
+#: includes/Admin/AdminDashboard.php:65
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/Admin/AdminDashboard.php:66
+msgid "E-Mail-Adressen"
+msgstr "E-mail-címek"
+
+#: includes/Admin/AdminDashboard.php:67
+msgid "Steuer-ID (11 Ziffern)"
+msgstr "Adóazonosító (11 számjegy)"
+
+#: includes/Admin/AdminDashboard.php:68
+msgid "Telefonnummern"
+msgstr "Telefonszámok"
+
+#: includes/Admin/AdminDashboard.php:69
+msgid "Namen nach Anrede oder Rolle"
+msgstr "Megszólítás vagy szerep utáni nevek"
+
+#: includes/Admin/AdminDashboard.php:70
+msgid "Geldbeträge"
+msgstr "Pénzösszegek"
+
+#: includes/Admin/AdminDashboard.php:76
+msgid ""
+"Nicht erkannt werden: Namen ohne Anrede oder Rolle („Max Mustermann“), "
+"Firmennamen, Adressen, Geburtsdaten, Steuernummern, USt-IdNr., "
+"Sozialversicherungs-, Krankenversicherungs- und Ausweisnummern, "
+"Registernummern, Kennzeichen, Gesundheitsangaben und interne Aktenzeichen "
+"wie „2024/0815-MK“. Den ersetzten Text vor dem Versand selbst prüfen."
+msgstr ""
+"Nem ismeri fel: megszólítás vagy szerep nélküli nevek („Max Mustermann”), "
+"cégnevek, címek, születési dátumok, adószámok, közösségi adószámok, "
+"társadalombiztosítási, egészségbiztosítási és személyazonosító okmányszámok, "
+"cégjegyzékszámok, rendszámok, egészségügyi adatok és belső iktatószámok, "
+"például „2024/0815-MK”. Küldés előtt mindig ellenőrizze saját maga a "
+"helyettesített szöveget."
+
+#: includes/Admin/AdminDashboard.php:116
+msgid "Platzhalter statt erkannter Werte"
+msgstr "Helyőrzők a felismert értékek helyett"
+
+#: includes/Admin/AdminDashboard.php:117
+msgid ""
+"Ersetzt Aktenzeichen, IBAN, E-Mail, Steuer-ID, Telefonnummern, Namen nach "
+"einer Anrede und Geldbeträge. Sendet nichts an KI-Anbieter."
+msgstr ""
+"Helyettesíti az ügyszámokat, IBAN-t, e-mailt, adóazonosítót, "
+"telefonszámokat, megszólítás utáni neveket és összegeket. Nem küld semmit MI-"
+"szolgáltatóknak."
+
+#: includes/Admin/AdminDashboard.php:123
+#: includes/Integrations/EcosystemBridge.php:73
+msgid "Aufrufe"
+msgstr "Hívások"
+
+#: includes/Admin/AdminDashboard.php:127 includes/Admin/AdminDashboard.php:345
+#: includes/Integrations/EcosystemBridge.php:69
+msgid "Ersetzte Werte"
+msgstr "Helyettesített értékek"
+
+#: includes/Admin/AdminDashboard.php:131
+#: includes/Integrations/EcosystemBridge.php:81
+msgid "Aktive Typen"
+msgstr "Aktív típusok"
+
+#: includes/Admin/AdminDashboard.php:136
+msgid "Simulator öffnen"
+msgstr "Szimulátor megnyitása"
+
+#: includes/Admin/AdminDashboard.php:155 includes/Admin/AdminDashboard.php:281
+msgid "Kanzlei AI Sanitizer"
+msgstr "Kanzlei AI Sanitizer"
+
+#: includes/Admin/AdminDashboard.php:156
+msgid "KI-Sanitizer"
+msgstr "MI-Sanitizer"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Keine Berechtigung."
+msgstr "Nincs jogosultság."
+
+#: includes/Admin/AdminDashboard.php:221
+msgid "Übersicht"
+msgstr "Áttekintés"
+
+#: includes/Admin/AdminDashboard.php:222 includes/Admin/AdminDashboard.php:377
+msgid "Simulator"
+msgstr "Szimulátor"
+
+#: includes/Admin/AdminDashboard.php:223
+msgid "Einstellungen"
+msgstr "Beállítások"
+
+#: includes/Admin/AdminDashboard.php:224 includes/Admin/AdminDashboard.php:493
+msgid "Protokoll"
+msgstr "Napló"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "Begriffe"
+msgstr "Fogalmak"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"Ersetzt erkannte Werte in einem Text durch Platzhalter und setzt sie in der "
+"Antwort wieder ein. Das Plugin sendet nichts an KI-Anbieter."
+msgstr ""
+"A szövegben felismert értékeket helyőrzőkkel váltja ki, majd a válaszban "
+"visszaállítja azokat. A bővítmény nem küld semmit MI-szolgáltatóknak."
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Teil der WM-Suite-Pluginfamilie"
+msgstr "A WM Suite bővítménycsalád része"
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Standalone"
+msgstr "Önálló"
+
+#: includes/Admin/AdminDashboard.php:291
+msgid "KEINE EXTERNEN ANFRAGEN"
+msgstr "NINCS KÜLSŐ KÉRÉS"
+
+#: includes/Admin/AdminDashboard.php:297
+msgid "Einstellungen gespeichert."
+msgstr "Beállítások mentve."
+
+#: includes/Admin/AdminDashboard.php:300
+msgid "Bereiche"
+msgstr "Területek"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Aufrufe von /sanitize"
+msgstr "/sanitize hívások"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid "Zeilen in der Sitzungstabelle"
+msgstr "Sorok a munkamenet-táblában"
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Summe über alle Aufrufe"
+msgstr "Összes hívás összege"
+
+#: includes/Admin/AdminDashboard.php:350
+#: includes/Integrations/EcosystemBridge.php:77
+msgid "Protokollzeilen"
+msgstr "Naplósorok"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "alle Zeilen, auch aus früheren Versionen"
+msgstr "minden sor, a korábbi verziókból is"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Was das Plugin tut"
+msgstr "Mit csinál a bővítmény"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid ""
+"POST /wp-json/wm-kanzlei/v1/sanitize (Rolle mit edit_posts) sucht im Text "
+"nach den aktiven Typen, ersetzt jeden Wert durch einen Platzhalter wie "
+"{{IBAN_…}} und gibt den Text, die Zuordnung Platzhalter → Wert und die "
+"Sitzungskennung zurück. Die Zuordnung wird nicht gespeichert."
+msgstr ""
+"A POST /wp-json/wm-kanzlei/v1/sanitize (edit_posts jogosultsággal) megkeresi "
+"a szövegben az aktív típusokat, minden értéket helyőrzőre cserél (pl. "
+"{{IBAN_…}}), és visszaadja a szöveget, a helyőrző → érték hozzárendelést és "
+"a munkamenet-azonosítót. A hozzárendelés nem kerül mentésre."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid ""
+"Den ersetzten Text sendet die Anwendung, die das Plugin aufruft, selbst an "
+"einen KI-Dienst. POST /proxy antwortet mit 501: Das Plugin ist mit keinem "
+"Anbieter verbunden."
+msgstr ""
+"A hívó alkalmazás maga küldi el a helyettesített szöveget egy MI-"
+"szolgáltatásnak. A POST /proxy 501-gyel válaszol: a bővítmény egyetlen "
+"szolgáltatóhoz sincs csatlakoztatva."
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"POST /rehydrate setzt die Werte mit der zurückgesandten Zuordnung wieder in "
+"die Antwort ein."
+msgstr ""
+"A POST /rehydrate a visszaküldött hozzárendelés alapján visszahelyezi az "
+"értékeket a válaszba."
+
+#: includes/Admin/AdminDashboard.php:362
+msgid ""
+"Jeder Aufruf von /sanitize schreibt eine Sitzungszeile (Nutzer, Anzahl, "
+"Zeit) und eine Protokollzeile (gefundene Typen) mit HMAC-Siegel, das an die "
+"vorige Zeile gekettet ist. Der Text selbst wird nicht gespeichert."
+msgstr ""
+"Minden /sanitize hívás ír egy munkamenetsort (felhasználó, darabszám, idő) "
+"és egy naplósort (talált típusok) az előző sorhoz láncolt HMAC-pecséttel. "
+"Maga a szöveg nem kerül tárolásra."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Aktive Typen:"
+msgstr "Aktív típusok:"
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "keine"
+msgstr "nincs"
+
+#: includes/Admin/AdminDashboard.php:378
+msgid ""
+"Zeigt, was /sanitize mit einem Text macht, mit den aktiven Typen. Hier wird "
+"nichts gespeichert und nichts protokolliert."
+msgstr ""
+"Megmutatja, mit tesz a /sanitize egy szöveggel az aktív típusok mellett. Itt "
+"semmi nem kerül mentésre vagy naplózásra."
+
+#: includes/Admin/AdminDashboard.php:381
+msgid "Text"
+msgstr "Szöveg"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "Werte ersetzen"
+msgstr "Értékek cseréje"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "Beispieltext laden"
+msgstr "Mintaszöveg betöltése"
+
+#: includes/Admin/AdminDashboard.php:394
+msgid "Prüfhinweise"
+msgstr "Ellenőrzési megjegyzések"
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "Ersetzter Text"
+msgstr "Helyettesített szöveg"
+
+#. translators: %d: number of values replaced
+#: includes/Admin/AdminDashboard.php:411
+#, php-format
+msgid "%d Wert ersetzt"
+msgid_plural "%d Werte ersetzt"
+msgstr[0] "%d érték helyettesítve"
+msgstr[1] "%d érték helyettesítve"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Typ"
+msgstr "Típus"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Wert"
+msgstr "Érték"
+
+#: includes/Admin/AdminDashboard.php:437
+msgid "Welche Typen ersetzt werden"
+msgstr "Mely típusok kerülnek cserére"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"Gilt für /sanitize, WP-CLI und den Simulator. Ein abgeschalteter Typ bleibt "
+"im Text stehen."
+msgstr ""
+"Érvényes a /sanitize végpontra, a WP-CLI-re és a szimulátorra. A kikapcsolt "
+"típus változatlanul marad a szövegben."
+
+#: includes/Admin/AdminDashboard.php:443
+msgid "Typen"
+msgstr "Típusok"
+
+#: includes/Admin/AdminDashboard.php:454 includes/Admin/AdminDashboard.php:455
+msgid "Deinstallation"
+msgstr "Eltávolítás"
+
+#: includes/Admin/AdminDashboard.php:459
+msgid ""
+"Beim Löschen des Plugins alle Optionen sowie die Sitzungs- und "
+"Protokolltabellen entfernen (Standard: aus, Protokoll bleibt erhalten)"
+msgstr ""
+"A bővítmény törlésekor minden beállítás, valamint a munkamenet- és "
+"naplótáblák eltávolítása (alapértelmezés: ki, a napló megmarad)"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "Speichern"
+msgstr "Mentés"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid "Alle Typen einschalten"
+msgstr "Minden típus bekapcsolása"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid ""
+"Es gibt keine Einstellung für einen KI-Anbieter oder eine Aufbewahrungszeit: "
+"Das Plugin ist mit keinem Anbieter verbunden und speichert die Zuordnung "
+"nicht. Sitzungs- und Protokollzeilen bleiben beim Löschen des Plugins "
+"erhalten, sofern die Option zur Deinstallation oben nicht eingeschaltet ist."
+msgstr ""
+"Nincs MI-szolgáltatóra vagy megőrzési időre vonatkozó beállítás: a bővítmény "
+"nem kapcsolódik szolgáltatóhoz és nem tárolja a hozzárendelést. A "
+"munkamenet- és naplósorok a bővítmény törlésekor megmaradnak, hacsak a fenti "
+"eltávolítási opció nincs bekapcsolva."
+
+#: includes/Admin/AdminDashboard.php:485
+msgid ""
+"Kette geprüft: jede versiegelte Zeile passt zu ihrem Siegel und zur vorigen "
+"Zeile."
+msgstr ""
+"Lánc ellenőrizve: minden lepecsételt sor illeszkedik a pecsétjéhez és az "
+"előző sorhoz."
+
+#: includes/Admin/AdminDashboard.php:486
+msgid "Noch keine Protokollzeilen."
+msgstr "Még nincsenek naplósorok."
+
+#: includes/Admin/AdminDashboard.php:487
+msgid ""
+"Nur Zeilen aus der Zeit vor der Kette: nichts ist versiegelt, nichts lässt "
+"sich prüfen."
+msgstr ""
+"Csak a lánc előtti sorok vannak: semmi sincs lepecsételve, semmi sem "
+"ellenőrizhető."
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Kette gebrochen."
+msgstr "A lánc sérült."
+
+#. translators: 1: sealed rows, 2: rows written before the chain
+#: includes/Admin/AdminDashboard.php:503
+#, php-format
+msgid "%1$d versiegelt, %2$d vor der Kette."
+msgstr "%1$d lepecsételt, %2$d a lánc előtt."
+
+#: includes/Admin/AdminDashboard.php:507
+msgid ""
+"Eine Zeile hält fest, dass /sanitize aufgerufen wurde und welche Typen "
+"gefunden wurden, nicht den Text und nicht, ob oder wohin er gesendet wurde. "
+"Zeilen vor der Kette stammen aus früheren Versionen, darunter Beispielzeilen "
+"des entfernten Demo-Knopfs. Wer die Datenbank und wp-config.php schreiben "
+"kann, kann die Kette neu versiegeln."
+msgstr ""
+"Egy sor azt rögzíti, hogy meghívták a /sanitize végpontot és milyen "
+"típusokat talált, nem a szöveget és nem azt, hogy elküldték-e vagy hová. A "
+"lánc előtti sorok korábbi verziókból származnak, beleértve az eltávolított "
+"demógomb mintasorait. Aki írhat az adatbázisba és a wp-config.php fájlba, "
+"újra lepecsételheti a láncot."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "Nr."
+msgstr "Sz."
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Sitzung"
+msgstr "Munkamenet"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid "Aktion"
+msgstr "Művelet"
+
+#: includes/Admin/AdminDashboard.php:515
+msgid "Gefundene Typen"
+msgstr "Talált típusok"
+
+#: includes/Admin/AdminDashboard.php:516
+msgid "Kette"
+msgstr "Lánc"
+
+#: includes/Admin/AdminDashboard.php:517
+msgid "Zeit (UTC)"
+msgstr "Idő (UTC)"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "vor der Kette"
+msgstr "lánc előtti"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "versiegelt"
+msgstr "lepecsételt"
+
+#: includes/Admin/AdminDashboard.php:534
+msgid "Keine Zeilen."
+msgstr "Nincsenek sorok."
+
+#: includes/Admin/AdminDashboard.php:546
+msgid "Platzhalter"
+msgstr "Helyőrzők"
+
+#: includes/Admin/AdminDashboard.php:547
+msgid ""
+"Ein Wert wird durch {{TYP_…}} ersetzt. Der Teil nach dem Typ ist ein HMAC "
+"des Werts mit einem Zufallsschlüssel je Aufruf; ohne die Zuordnung lässt er "
+"sich nicht zurückrechnen."
+msgstr ""
+"Egy értéket a {{TÍPUS_…}} vált fel. A típus utáni rész az érték hívásonként "
+"véletlen kulccsal képzett HMAC-je; a hozzárendelés nélkül nem számítható "
+"vissza."
+
+#: includes/Admin/AdminDashboard.php:550
+msgid "Pseudonymisierung, nicht Anonymisierung"
+msgstr "Álnévvel ellátás, nem anonimizálás"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid ""
+"Wer die Zuordnung hat, stellt die Werte wieder her. Solche Daten nennt die "
+"DSGVO pseudonymisiert (Art. 4 Nr. 5); nach Erwägungsgrund 26 bleiben sie "
+"Informationen über eine identifizierbare Person. Werte, die das Plugin nicht "
+"erkennt, bleiben ohnehin im Klartext."
+msgstr ""
+"A hozzárendelés birtokosa visszaállíthatja az értékeket. A GDPR az ilyen "
+"adatokat álnevesítettnek nevezi (4. cikk 5. pont); a (26) preambulumbekezdés "
+"szerint továbbra is azonosítható személyre vonatkozó információk maradnak. A "
+"fel nem ismert értékek nyílt szövegben maradnak."
+
+#: includes/Admin/AdminDashboard.php:554
+msgid "Wiedereinsetzen"
+msgstr "Visszahelyezés"
+
+#: includes/Admin/AdminDashboard.php:555
+msgid ""
+"/rehydrate ersetzt die Platzhalter in einer Antwort auf dem WordPress-Server "
+"durch die Werte aus der mitgesandten Zuordnung."
+msgstr ""
+"A /rehydrate a WordPress-szerveren kicseréli a válasz helyőrzőit a mellékelt "
+"hozzárendelés értékeire."
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Was das Plugin nicht entscheidet"
+msgstr "Amiről a bővítmény nem dönt"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid ""
+"Ob ein Text an einen Dienstleister gehen darf und unter welchen Bedingungen "
+"(§ 203 StGB, § 43e BRAO, DSGVO), entscheidet das Plugin nicht, und es stellt "
+"keine Bescheinigung darüber aus."
+msgstr ""
+"A bővítmény nem dönti el, hogy egy szöveg átadható-e szolgáltatónak és "
+"milyen feltételekkel (§ 203 StGB, § 43e BRAO, GDPR), és erről igazolást sem "
+"állít ki."
+
+#: includes/Integrations/EcosystemBridge.php:43
+msgid "WM Kanzlei Sanitizer Statistik"
+msgstr "WM Kanzlei Sanitizer Statisztika"
+
+#: includes/Integrations/EcosystemBridge.php:56
+msgid "WM Kanzlei Sanitizer Kennzahl"
+msgstr "WM Kanzlei Sanitizer Mutató"
+
+#: includes/Integrations/EcosystemBridge.php:60
+msgid ""
+"Gibt aggregierte Zähler des KI-Sanitizers aus (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+msgstr ""
+"Kiírja az MI-Sanitizer összesített számlálóit (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+
+#: includes/Integrations/EcosystemBridge.php:64
+msgid "Kennzahl"
+msgstr "Mutató"
+
+#: includes/Integrations/EcosystemBridge.php:85
+msgid "Kettenstatus"
+msgstr "Lánc állapota"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

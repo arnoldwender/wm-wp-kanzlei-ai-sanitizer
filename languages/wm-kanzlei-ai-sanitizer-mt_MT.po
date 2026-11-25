@@ -1,0 +1,525 @@
+# Translation of wm-kanzlei-ai-sanitizer in mt_MT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-kanzlei-ai-sanitizer 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-kanzlei-ai-"
+"sanitizer\n"
+"POT-Creation-Date: 2026-11-21T13:52:08+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:53+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? "
+"1 : (n%100>10 && n%100<20 ) ? 2 : 3);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-kanzlei-ai-sanitizer\n"
+
+#. Plugin Name of the plugin
+#: wm-kanzlei-ai-sanitizer.php includes/Admin/AdminDashboard.php:85
+msgid "WM Kanzlei AI Sanitizer"
+msgstr "WM Kanzlei AI Sanitizer"
+
+#. Plugin URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+
+#. Description of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid ""
+"Replaces court file numbers, IBANs, e-mail addresses, tax IDs, phone "
+"numbers, names after a title and amounts in a text with placeholders and "
+"puts them back into the answer; REST routes, WP-CLI, an admin simulator and "
+"an HMAC-chained log. Sends nothing to AI providers."
+msgstr ""
+"Jibdel in-numri tal-kawżi, l-IBANs, l-indirizzi tal-email, l-IDs tat-taxxa, "
+"in-numri tat-telefon, l-ismijiet wara titlu u l-ammonti f'test "
+"b'placeholders u jerġa' jdaħħalhom fit-tweġiba; rotot REST, WP-CLI, "
+"simulatur tal-amministrazzjoni u reġistru marbut b'HMAC. Ma jibgħat xejn "
+"lill-fornituri tal-AI."
+
+#. Author of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:64
+msgid "Aktenzeichen"
+msgstr "Numri tal-kawżi"
+
+#: includes/Admin/AdminDashboard.php:65
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/Admin/AdminDashboard.php:66
+msgid "E-Mail-Adressen"
+msgstr "Indirizzi tal-email"
+
+#: includes/Admin/AdminDashboard.php:67
+msgid "Steuer-ID (11 Ziffern)"
+msgstr "ID tat-taxxa (11-il ċifra)"
+
+#: includes/Admin/AdminDashboard.php:68
+msgid "Telefonnummern"
+msgstr "Numri tat-telefon"
+
+#: includes/Admin/AdminDashboard.php:69
+msgid "Namen nach Anrede oder Rolle"
+msgstr "Ismijiet wara titlu jew rwol"
+
+#: includes/Admin/AdminDashboard.php:70
+msgid "Geldbeträge"
+msgstr "Ammonti ta' flus"
+
+#: includes/Admin/AdminDashboard.php:76
+msgid ""
+"Nicht erkannt werden: Namen ohne Anrede oder Rolle („Max Mustermann“), "
+"Firmennamen, Adressen, Geburtsdaten, Steuernummern, USt-IdNr., "
+"Sozialversicherungs-, Krankenversicherungs- und Ausweisnummern, "
+"Registernummern, Kennzeichen, Gesundheitsangaben und interne Aktenzeichen "
+"wie „2024/0815-MK“. Den ersetzten Text vor dem Versand selbst prüfen."
+msgstr ""
+"Mhux misjuba: ismijiet mingħajr titlu jew rwol ('Max Mustermann'), ismijiet "
+"ta' kumpaniji, indirizzi, dati tat-twelid, numri tat-taxxa u tal-VAT, numri "
+"tas-sigurtà soċjali, assigurazzjoni tas-saħħa u karti tal-identità, numri "
+"tar-reġistru, pjanċi tar-reġistrazzjoni, dejta tas-saħħa u referenzi interni "
+"bħal '2024/0815-MK'. Dejjem iċċekkja t-test mibdul int stess qabel tibgħat."
+
+#: includes/Admin/AdminDashboard.php:116
+msgid "Platzhalter statt erkannter Werte"
+msgstr "Placeholders minflok valuri misjuba"
+
+#: includes/Admin/AdminDashboard.php:117
+msgid ""
+"Ersetzt Aktenzeichen, IBAN, E-Mail, Steuer-ID, Telefonnummern, Namen nach "
+"einer Anrede und Geldbeträge. Sendet nichts an KI-Anbieter."
+msgstr ""
+"Jibdel numri tal-kawżi, IBAN, email, ID tat-taxxa, telefowns, ismijiet wara "
+"titlu u ammonti. Ma jibgħat xejn lill-fornituri tal-AI."
+
+#: includes/Admin/AdminDashboard.php:123
+#: includes/Integrations/EcosystemBridge.php:73
+msgid "Aufrufe"
+msgstr "Sejħiet"
+
+#: includes/Admin/AdminDashboard.php:127 includes/Admin/AdminDashboard.php:345
+#: includes/Integrations/EcosystemBridge.php:69
+msgid "Ersetzte Werte"
+msgstr "Valuri mibdula"
+
+#: includes/Admin/AdminDashboard.php:131
+#: includes/Integrations/EcosystemBridge.php:81
+msgid "Aktive Typen"
+msgstr "Tipi attivi"
+
+#: includes/Admin/AdminDashboard.php:136
+msgid "Simulator öffnen"
+msgstr "Iftaħ is-simulatur"
+
+#: includes/Admin/AdminDashboard.php:155 includes/Admin/AdminDashboard.php:281
+msgid "Kanzlei AI Sanitizer"
+msgstr "Kanzlei AI Sanitizer"
+
+#: includes/Admin/AdminDashboard.php:156
+msgid "KI-Sanitizer"
+msgstr "Sanitizer tal-AI"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Keine Berechtigung."
+msgstr "M'għandekx permess."
+
+#: includes/Admin/AdminDashboard.php:221
+msgid "Übersicht"
+msgstr "Ħarsa ġenerali"
+
+#: includes/Admin/AdminDashboard.php:222 includes/Admin/AdminDashboard.php:377
+msgid "Simulator"
+msgstr "Simulatur"
+
+#: includes/Admin/AdminDashboard.php:223
+msgid "Einstellungen"
+msgstr "Issettjar"
+
+#: includes/Admin/AdminDashboard.php:224 includes/Admin/AdminDashboard.php:493
+msgid "Protokoll"
+msgstr "Reġistru"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "Begriffe"
+msgstr "Termini"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"Ersetzt erkannte Werte in einem Text durch Platzhalter und setzt sie in der "
+"Antwort wieder ein. Das Plugin sendet nichts an KI-Anbieter."
+msgstr ""
+"Jibdel il-valuri misjuba f'test b'placeholders u jerġa' jpoġġihom fit-"
+"tweġiba. Il-plugin ma jibgħat xejn lill-fornituri tal-AI."
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Teil der WM-Suite-Pluginfamilie"
+msgstr "Parti mill-familja ta' plugins WM Suite"
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Standalone"
+msgstr "Awtonomu"
+
+#: includes/Admin/AdminDashboard.php:291
+msgid "KEINE EXTERNEN ANFRAGEN"
+msgstr "L-EBDA TALBA ESTERNA"
+
+#: includes/Admin/AdminDashboard.php:297
+msgid "Einstellungen gespeichert."
+msgstr "L-issettjar ġie ssejvjat."
+
+#: includes/Admin/AdminDashboard.php:300
+msgid "Bereiche"
+msgstr "Taqsimiet"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Aufrufe von /sanitize"
+msgstr "Sejħiet lil /sanitize"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid "Zeilen in der Sitzungstabelle"
+msgstr "Ringieli fit-tabella tas-sessjonijiet"
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Summe über alle Aufrufe"
+msgstr "Total fuq is-sejħiet kollha"
+
+#: includes/Admin/AdminDashboard.php:350
+#: includes/Integrations/EcosystemBridge.php:77
+msgid "Protokollzeilen"
+msgstr "Ringieli tar-reġistru"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "alle Zeilen, auch aus früheren Versionen"
+msgstr "ir-ringieli kollha, inklużi verżjonijiet preċedenti"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Was das Plugin tut"
+msgstr "X'jagħmel il-plugin"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid ""
+"POST /wp-json/wm-kanzlei/v1/sanitize (Rolle mit edit_posts) sucht im Text "
+"nach den aktiven Typen, ersetzt jeden Wert durch einen Platzhalter wie "
+"{{IBAN_…}} und gibt den Text, die Zuordnung Platzhalter → Wert und die "
+"Sitzungskennung zurück. Die Zuordnung wird nicht gespeichert."
+msgstr ""
+"POST /wp-json/wm-kanzlei/v1/sanitize (rwol b'edit_posts) ifittex fit-test it-"
+"tipi attivi, jibdel kull valur bi placeholder bħal {{IBAN_…}} u jirritorna t-"
+"test, il-mappa placeholder → valur u l-ID tas-sessjoni. Il-mappa ma "
+"tinħażinx."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid ""
+"Den ersetzten Text sendet die Anwendung, die das Plugin aufruft, selbst an "
+"einen KI-Dienst. POST /proxy antwortet mit 501: Das Plugin ist mit keinem "
+"Anbieter verbunden."
+msgstr ""
+"L-applikazzjoni li ssejjaħ tibgħat it-test mibdul lil servizz tal-AI hi "
+"stess. POST /proxy jwieġeb b'501: il-plugin mhux imqabbad ma' ebda fornitur."
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"POST /rehydrate setzt die Werte mit der zurückgesandten Zuordnung wieder in "
+"die Antwort ein."
+msgstr ""
+"POST /rehydrate jerġa' jdaħħal il-valuri fit-tweġiba permezz tal-mappa "
+"mibgħuta."
+
+#: includes/Admin/AdminDashboard.php:362
+msgid ""
+"Jeder Aufruf von /sanitize schreibt eine Sitzungszeile (Nutzer, Anzahl, "
+"Zeit) und eine Protokollzeile (gefundene Typen) mit HMAC-Siegel, das an die "
+"vorige Zeile gekettet ist. Der Text selbst wird nicht gespeichert."
+msgstr ""
+"Kull sejħa lil /sanitize tikteb ringiela ta' sessjoni (utent, għadd, ħin) u "
+"ringiela fir-reġistru (tipi misjuba) b'siġill HMAC marbut mar-ringiela ta' "
+"qabel. It-test innifsu ma jinħażinx."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Aktive Typen:"
+msgstr "Tipi attivi:"
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "keine"
+msgstr "ebda"
+
+#: includes/Admin/AdminDashboard.php:378
+msgid ""
+"Zeigt, was /sanitize mit einem Text macht, mit den aktiven Typen. Hier wird "
+"nichts gespeichert und nichts protokolliert."
+msgstr ""
+"Juri x'jagħmel /sanitize fuq test bit-tipi attivi. Hawn ma jinħażen u ma "
+"jiġi rreġistrat xejn."
+
+#: includes/Admin/AdminDashboard.php:381
+msgid "Text"
+msgstr "Test"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "Werte ersetzen"
+msgstr "Ibdel il-valuri"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "Beispieltext laden"
+msgstr "Imla test kampjun"
+
+#: includes/Admin/AdminDashboard.php:394
+msgid "Prüfhinweise"
+msgstr "Noti għar-reviżjoni"
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "Ersetzter Text"
+msgstr "Test mibdul"
+
+#. translators: %d: number of values replaced
+#: includes/Admin/AdminDashboard.php:411
+#, php-format
+msgid "%d Wert ersetzt"
+msgid_plural "%d Werte ersetzt"
+msgstr[0] "%d valur mibdul"
+msgstr[1] "%d valuri mibdulin"
+msgstr[2] "%d valur mibdul"
+msgstr[3] "%d valur mibdul"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Typ"
+msgstr "Tip"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Wert"
+msgstr "Valur"
+
+#: includes/Admin/AdminDashboard.php:437
+msgid "Welche Typen ersetzt werden"
+msgstr "Liema tipi jinbidlu"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"Gilt für /sanitize, WP-CLI und den Simulator. Ein abgeschalteter Typ bleibt "
+"im Text stehen."
+msgstr ""
+"Japplika għal /sanitize, WP-CLI u s-simulatur. Tip mitfi jibqa' fit-test kif "
+"inhu."
+
+#: includes/Admin/AdminDashboard.php:443
+msgid "Typen"
+msgstr "Tipi"
+
+#: includes/Admin/AdminDashboard.php:454 includes/Admin/AdminDashboard.php:455
+msgid "Deinstallation"
+msgstr "Diżinstallazzjoni"
+
+#: includes/Admin/AdminDashboard.php:459
+msgid ""
+"Beim Löschen des Plugins alle Optionen sowie die Sitzungs- und "
+"Protokolltabellen entfernen (Standard: aus, Protokoll bleibt erhalten)"
+msgstr ""
+"Meta jitħassar il-plugin, neħħi l-għażliet kollha kif ukoll it-tabelli tas-"
+"sessjonijiet u tar-reġistru (awtomatiku: mitfi, ir-reġistru jinżamm)"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "Speichern"
+msgstr "Issejvja"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid "Alle Typen einschalten"
+msgstr "Ixgħel it-tipi kollha"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid ""
+"Es gibt keine Einstellung für einen KI-Anbieter oder eine Aufbewahrungszeit: "
+"Das Plugin ist mit keinem Anbieter verbunden und speichert die Zuordnung "
+"nicht. Sitzungs- und Protokollzeilen bleiben beim Löschen des Plugins "
+"erhalten, sofern die Option zur Deinstallation oben nicht eingeschaltet ist."
+msgstr ""
+"M'hemm ebda ssettjar għal fornitur tal-AI jew żmien ta' żamma: il-plugin "
+"mhux imqabbad ma' fornitur u ma jaħżinx il-mappa. Ir-ringieli tas-"
+"sessjonijiet u tar-reġistru jinżammu meta jitħassar il-plugin sakemm l-"
+"għażla tad-diżinstallazzjoni ta' hawn fuq ma tkunx mixgħula."
+
+#: includes/Admin/AdminDashboard.php:485
+msgid ""
+"Kette geprüft: jede versiegelte Zeile passt zu ihrem Siegel und zur vorigen "
+"Zeile."
+msgstr ""
+"Katina vverifikata: kull ringiela ssiġillata taqbel mas-siġill tagħha u mar-"
+"ringiela ta' qabel."
+
+#: includes/Admin/AdminDashboard.php:486
+msgid "Noch keine Protokollzeilen."
+msgstr "Għad m'hemmx ringieli fir-reġistru."
+
+#: includes/Admin/AdminDashboard.php:487
+msgid ""
+"Nur Zeilen aus der Zeit vor der Kette: nichts ist versiegelt, nichts lässt "
+"sich prüfen."
+msgstr ""
+"Ringieli biss minn qabel il-katina: xejn mhu ssiġillat u xejn ma jista' jiġi "
+"vverifikat."
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Kette gebrochen."
+msgstr "Katina miksura."
+
+#. translators: 1: sealed rows, 2: rows written before the chain
+#: includes/Admin/AdminDashboard.php:503
+#, php-format
+msgid "%1$d versiegelt, %2$d vor der Kette."
+msgstr "%1$d issiġillati, %2$d qabel il-katina."
+
+#: includes/Admin/AdminDashboard.php:507
+msgid ""
+"Eine Zeile hält fest, dass /sanitize aufgerufen wurde und welche Typen "
+"gefunden wurden, nicht den Text und nicht, ob oder wohin er gesendet wurde. "
+"Zeilen vor der Kette stammen aus früheren Versionen, darunter Beispielzeilen "
+"des entfernten Demo-Knopfs. Wer die Datenbank und wp-config.php schreiben "
+"kann, kann die Kette neu versiegeln."
+msgstr ""
+"Ringiela tirreġistra li ġie msejjaħ /sanitize u liema tipi nstabu, mhux it-"
+"test u lanqas jekk jew fejn intbagħat. Ringieli ta' qabel il-katina ġejjin "
+"minn verżjonijiet eqdem, inklużi kampjuni mill-buttuna demo li tneħħiet. Min "
+"jista' jikteb fid-database u f'wp-config.php jista' jerġa' jissiġilla l-"
+"katina."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "Nr."
+msgstr "Nru"
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Sitzung"
+msgstr "Sessjoni"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid "Aktion"
+msgstr "Azzjoni"
+
+#: includes/Admin/AdminDashboard.php:515
+msgid "Gefundene Typen"
+msgstr "Tipi misjuba"
+
+#: includes/Admin/AdminDashboard.php:516
+msgid "Kette"
+msgstr "Katina"
+
+#: includes/Admin/AdminDashboard.php:517
+msgid "Zeit (UTC)"
+msgstr "Ħin (UTC)"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "vor der Kette"
+msgstr "qabel il-katina"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "versiegelt"
+msgstr "issiġillata"
+
+#: includes/Admin/AdminDashboard.php:534
+msgid "Keine Zeilen."
+msgstr "L-ebda ringiela."
+
+#: includes/Admin/AdminDashboard.php:546
+msgid "Platzhalter"
+msgstr "Placeholders"
+
+#: includes/Admin/AdminDashboard.php:547
+msgid ""
+"Ein Wert wird durch {{TYP_…}} ersetzt. Der Teil nach dem Typ ist ein HMAC "
+"des Werts mit einem Zufallsschlüssel je Aufruf; ohne die Zuordnung lässt er "
+"sich nicht zurückrechnen."
+msgstr ""
+"Valur jinbidel b'{{TIP_…}}. Il-parti wara t-tip hija HMAC tal-valur "
+"b'ċavetta każwali għal kull sejħa; mingħajr il-mappa ma jistax jitreġġa' "
+"lura."
+
+#: includes/Admin/AdminDashboard.php:550
+msgid "Pseudonymisierung, nicht Anonymisierung"
+msgstr "Psewdonimizzazzjoni, mhux anonimizzazzjoni"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid ""
+"Wer die Zuordnung hat, stellt die Werte wieder her. Solche Daten nennt die "
+"DSGVO pseudonymisiert (Art. 4 Nr. 5); nach Erwägungsgrund 26 bleiben sie "
+"Informationen über eine identifizierbare Person. Werte, die das Plugin nicht "
+"erkennt, bleiben ohnehin im Klartext."
+msgstr ""
+"Min għandu l-mappa jirrestawra l-valuri. Il-GDPR isejjaħ din id-dejta "
+"psewdonimizzata (Art. 4 punt 5); skont il-Premessa 26 tibqa' informazzjoni "
+"dwar persuna identifikabbli. Valuri mhux misjuba jibqgħu f'test ċar."
+
+#: includes/Admin/AdminDashboard.php:554
+msgid "Wiedereinsetzen"
+msgstr "Tqegħid lura"
+
+#: includes/Admin/AdminDashboard.php:555
+msgid ""
+"/rehydrate ersetzt die Platzhalter in einer Antwort auf dem WordPress-Server "
+"durch die Werte aus der mitgesandten Zuordnung."
+msgstr ""
+"/rehydrate jibdel il-placeholders fi tweġiba fuq is-server ta' WordPress bil-"
+"valuri mill-mappa mibgħuta."
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Was das Plugin nicht entscheidet"
+msgstr "X'ma jiddeċidix il-plugin"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid ""
+"Ob ein Text an einen Dienstleister gehen darf und unter welchen Bedingungen "
+"(§ 203 StGB, § 43e BRAO, DSGVO), entscheidet das Plugin nicht, und es stellt "
+"keine Bescheinigung darüber aus."
+msgstr ""
+"Jekk u taħt liema kundizzjonijiet test jistax jingħata lil fornitur ta' "
+"servizz (§ 203 StGB, § 43e BRAO, GDPR) ma jiddeċidihx il-plugin, u ma joħroġ "
+"ebda ċertifikat dwar dan."
+
+#: includes/Integrations/EcosystemBridge.php:43
+msgid "WM Kanzlei Sanitizer Statistik"
+msgstr "Statistika WM Kanzlei Sanitizer"
+
+#: includes/Integrations/EcosystemBridge.php:56
+msgid "WM Kanzlei Sanitizer Kennzahl"
+msgstr "Indikatur WM Kanzlei Sanitizer"
+
+#: includes/Integrations/EcosystemBridge.php:60
+msgid ""
+"Gibt aggregierte Zähler des KI-Sanitizers aus (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+msgstr ""
+"Juri l-counters aggregati tas-Sanitizer tal-AI (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+
+#: includes/Integrations/EcosystemBridge.php:64
+msgid "Kennzahl"
+msgstr "Indikatur"
+
+#: includes/Integrations/EcosystemBridge.php:85
+msgid "Kettenstatus"
+msgstr "Stat tal-katina"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

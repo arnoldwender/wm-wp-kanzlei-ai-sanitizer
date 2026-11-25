@@ -1,0 +1,28 @@
+{
+    "name": "arnoldwender/wm-kanzlei-ai-sanitizer",
+    "description": "Replaces court file numbers, IBANs and other values in a text with placeholders and puts them back; sends nothing to AI providers.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5 || ^12.0 || ^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WMCyber\\Kanzlei\\": "includes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WMCyber\\Kanzlei\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

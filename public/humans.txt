@@ -1,0 +1,43 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+, tested up to 7.1
+    PHP 8.2+ (strict types)
+    MySQL (two plugin tables: sessions and an HMAC-chained audit log)
+    WP-CLI command and REST routes
+
+    ## Admin
+    German admin screen on the WM Suite family sheets (self-hosted, no CDN)
+
+    ## Quality
+    Standalone test suite with a mutation check, PHPUnit unit tests, a rolled-back runtime check in WordPress
+
+# SITE & PROJECT
+
+    Plugin: wm-kanzlei-ai-sanitizer
+    Stack: WordPress Enterprise Extension
+    Standards: no outbound requests, no runtime dependency on other plugins
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-kanzlei-ai-sanitizer
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

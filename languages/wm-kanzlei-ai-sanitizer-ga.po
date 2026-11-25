@@ -1,0 +1,529 @@
+# Translation of wm-kanzlei-ai-sanitizer in ga
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-kanzlei-ai-sanitizer 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-kanzlei-ai-"
+"sanitizer\n"
+"POT-Creation-Date: 2026-11-21T13:52:08+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:53+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-kanzlei-ai-"
+"sanitizer/issues>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-kanzlei-ai-sanitizer\n"
+
+#. Plugin Name of the plugin
+#: wm-kanzlei-ai-sanitizer.php includes/Admin/AdminDashboard.php:85
+msgid "WM Kanzlei AI Sanitizer"
+msgstr "WM Kanzlei AI Sanitizer"
+
+#. Plugin URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/"
+
+#. Description of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid ""
+"Replaces court file numbers, IBANs, e-mail addresses, tax IDs, phone "
+"numbers, names after a title and amounts in a text with placeholders and "
+"puts them back into the answer; REST routes, WP-CLI, an admin simulator and "
+"an HMAC-chained log. Sends nothing to AI providers."
+msgstr ""
+"Cuireann sé ionadóirí in áit uimhreacha comhaid chúirte, IBANanna, seoltaí "
+"ríomhphoist, aitheantais chánach, uimhreacha gutháin, ainmneacha i ndiaidh "
+"teidil agus suimeanna airgid i dtéacs agus cuireann sé ar ais sa fhreagra "
+"iad; bealaí REST, WP-CLI, insamhlóir riaracháin agus loga slabhraithe HMAC. "
+"Ní sheolann sé aon rud chuig soláthraithe IS."
+
+#. Author of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-kanzlei-ai-sanitizer.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:64
+msgid "Aktenzeichen"
+msgstr "Uimhreacha comhaid"
+
+#: includes/Admin/AdminDashboard.php:65
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/Admin/AdminDashboard.php:66
+msgid "E-Mail-Adressen"
+msgstr "Seoltaí ríomhphoist"
+
+#: includes/Admin/AdminDashboard.php:67
+msgid "Steuer-ID (11 Ziffern)"
+msgstr "Aitheantas cánach (11 dhigit)"
+
+#: includes/Admin/AdminDashboard.php:68
+msgid "Telefonnummern"
+msgstr "Uimhreacha gutháin"
+
+#: includes/Admin/AdminDashboard.php:69
+msgid "Namen nach Anrede oder Rolle"
+msgstr "Ainmneacha tar éis teidil nó róil"
+
+#: includes/Admin/AdminDashboard.php:70
+msgid "Geldbeträge"
+msgstr "Suimeanna airgid"
+
+#: includes/Admin/AdminDashboard.php:76
+msgid ""
+"Nicht erkannt werden: Namen ohne Anrede oder Rolle („Max Mustermann“), "
+"Firmennamen, Adressen, Geburtsdaten, Steuernummern, USt-IdNr., "
+"Sozialversicherungs-, Krankenversicherungs- und Ausweisnummern, "
+"Registernummern, Kennzeichen, Gesundheitsangaben und interne Aktenzeichen "
+"wie „2024/0815-MK“. Den ersetzten Text vor dem Versand selbst prüfen."
+msgstr ""
+"Nach n-aithnítear: ainmneacha gan teideal nó ról ('Max Mustermann'), "
+"ainmneacha cuideachtaí, seoltaí, dátaí breithe, uimhreacha cánach agus CBL, "
+"uimhreacha slándála sóisialta, árachais sláinte agus cártaí aitheantais, "
+"uimhreacha cláir, plátaí clárúcháin, sonraí sláinte agus tagairtí "
+"inmheánacha amhail '2024/0815-MK'. Seiceáil an téacs ionadaithe tú féin i "
+"gcónaí sula seoltar é."
+
+#: includes/Admin/AdminDashboard.php:116
+msgid "Platzhalter statt erkannter Werte"
+msgstr "Ionadóirí in áit luachanna aimsithe"
+
+#: includes/Admin/AdminDashboard.php:117
+msgid ""
+"Ersetzt Aktenzeichen, IBAN, E-Mail, Steuer-ID, Telefonnummern, Namen nach "
+"einer Anrede und Geldbeträge. Sendet nichts an KI-Anbieter."
+msgstr ""
+"Cuireann sé ionadóirí in áit uimhreacha comhaid, IBAN, ríomhphoist, "
+"aitheantas cánach, uimhreacha gutháin, ainmneacha i ndiaidh teidil agus "
+"suimeanna. Ní sheolann sé faic chuig soláthraithe IS."
+
+#: includes/Admin/AdminDashboard.php:123
+#: includes/Integrations/EcosystemBridge.php:73
+msgid "Aufrufe"
+msgstr "Glaonna"
+
+#: includes/Admin/AdminDashboard.php:127 includes/Admin/AdminDashboard.php:345
+#: includes/Integrations/EcosystemBridge.php:69
+msgid "Ersetzte Werte"
+msgstr "Luachanna ionadaithe"
+
+#: includes/Admin/AdminDashboard.php:131
+#: includes/Integrations/EcosystemBridge.php:81
+msgid "Aktive Typen"
+msgstr "Cineálacha gníomhacha"
+
+#: includes/Admin/AdminDashboard.php:136
+msgid "Simulator öffnen"
+msgstr "Oscail an t-insamhlóir"
+
+#: includes/Admin/AdminDashboard.php:155 includes/Admin/AdminDashboard.php:281
+msgid "Kanzlei AI Sanitizer"
+msgstr "Kanzlei AI Sanitizer"
+
+#: includes/Admin/AdminDashboard.php:156
+msgid "KI-Sanitizer"
+msgstr "Glantóir IS"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Keine Berechtigung."
+msgstr "Níl cead agat."
+
+#: includes/Admin/AdminDashboard.php:221
+msgid "Übersicht"
+msgstr "Forbhreathnú"
+
+#: includes/Admin/AdminDashboard.php:222 includes/Admin/AdminDashboard.php:377
+msgid "Simulator"
+msgstr "Insamhlóir"
+
+#: includes/Admin/AdminDashboard.php:223
+msgid "Einstellungen"
+msgstr "Socruithe"
+
+#: includes/Admin/AdminDashboard.php:224 includes/Admin/AdminDashboard.php:493
+msgid "Protokoll"
+msgstr "Loga"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "Begriffe"
+msgstr "Téarmaí"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"Ersetzt erkannte Werte in einem Text durch Platzhalter und setzt sie in der "
+"Antwort wieder ein. Das Plugin sendet nichts an KI-Anbieter."
+msgstr ""
+"Cuireann sé ionadóirí in áit luachanna aimsithe i dtéacs agus cuireann sé ar "
+"ais sa fhreagra iad. Ní sheolann an breiseán aon rud chuig soláthraithe IS."
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Teil der WM-Suite-Pluginfamilie"
+msgstr "Cuid d'fhine breiseán WM Suite"
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:289
+msgid "Standalone"
+msgstr "Neamhspleách"
+
+#: includes/Admin/AdminDashboard.php:291
+msgid "KEINE EXTERNEN ANFRAGEN"
+msgstr "GAN IARRATAIS SHEACHTRACHA"
+
+#: includes/Admin/AdminDashboard.php:297
+msgid "Einstellungen gespeichert."
+msgstr "Socruithe sábháilte."
+
+#: includes/Admin/AdminDashboard.php:300
+msgid "Bereiche"
+msgstr "Rannóga"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Aufrufe von /sanitize"
+msgstr "Glaonna ar /sanitize"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid "Zeilen in der Sitzungstabelle"
+msgstr "Rónna i dtábla na seisiún"
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Summe über alle Aufrufe"
+msgstr "Iomlán na nglaonna uile"
+
+#: includes/Admin/AdminDashboard.php:350
+#: includes/Integrations/EcosystemBridge.php:77
+msgid "Protokollzeilen"
+msgstr "Rónna loga"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "alle Zeilen, auch aus früheren Versionen"
+msgstr "gach ró, leaganacha roimhe seo san áireamh"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Was das Plugin tut"
+msgstr "Cad a dhéanann an breiseán"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid ""
+"POST /wp-json/wm-kanzlei/v1/sanitize (Rolle mit edit_posts) sucht im Text "
+"nach den aktiven Typen, ersetzt jeden Wert durch einen Platzhalter wie "
+"{{IBAN_…}} und gibt den Text, die Zuordnung Platzhalter → Wert und die "
+"Sitzungskennung zurück. Die Zuordnung wird nicht gespeichert."
+msgstr ""
+"Cuardaíonn POST /wp-json/wm-kanzlei/v1/sanitize (ról le edit_posts) na "
+"cineálacha gníomhacha sa téacs, cuireann sé ionadóir amhail {{IBAN_…}} in "
+"áit gach luacha agus filleann sé an téacs, an mapáil ionadóir → luach agus "
+"aitheantas an tseisiúin. Ní stóráiltear an mapáil."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid ""
+"Den ersetzten Text sendet die Anwendung, die das Plugin aufruft, selbst an "
+"einen KI-Dienst. POST /proxy antwortet mit 501: Das Plugin ist mit keinem "
+"Anbieter verbunden."
+msgstr ""
+"Seolann an feidhmchlár glaoite féin an téacs ionadaithe chuig seirbhís IS. "
+"Freagraíonn POST /proxy le 501: níl an breiseán ceangailte le haon soláthraí."
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"POST /rehydrate setzt die Werte mit der zurückgesandten Zuordnung wieder in "
+"die Antwort ein."
+msgstr ""
+"Cuireann POST /rehydrate na luachanna ar ais sa fhreagra leis an mapáil a "
+"seoladh ar ais."
+
+#: includes/Admin/AdminDashboard.php:362
+msgid ""
+"Jeder Aufruf von /sanitize schreibt eine Sitzungszeile (Nutzer, Anzahl, "
+"Zeit) und eine Protokollzeile (gefundene Typen) mit HMAC-Siegel, das an die "
+"vorige Zeile gekettet ist. Der Text selbst wird nicht gespeichert."
+msgstr ""
+"Scríobhann gach glao ar /sanitize ró seisiúin (úsáideoir, líon, am) agus ró "
+"loga (cineálacha aimsithe) le séala HMAC slabhraithe leis an ró roimhe sin. "
+"Ní stóráiltear an téacs féin."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Aktive Typen:"
+msgstr "Cineálacha gníomhacha:"
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "keine"
+msgstr "ceann ar bith"
+
+#: includes/Admin/AdminDashboard.php:378
+msgid ""
+"Zeigt, was /sanitize mit einem Text macht, mit den aktiven Typen. Hier wird "
+"nichts gespeichert und nichts protokolliert."
+msgstr ""
+"Taispeánann sé cad a dhéanann /sanitize le téacs leis na cineálacha "
+"gníomhacha. Ní stóráiltear ná ní logáiltear aon rud anseo."
+
+#: includes/Admin/AdminDashboard.php:381
+msgid "Text"
+msgstr "Téacs"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "Werte ersetzen"
+msgstr "Ionadaigh luachanna"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "Beispieltext laden"
+msgstr "Lódáil téacs samplach"
+
+#: includes/Admin/AdminDashboard.php:394
+msgid "Prüfhinweise"
+msgstr "Nótaí athbhreithnithe"
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "Ersetzter Text"
+msgstr "Téacs ionadaithe"
+
+#. translators: %d: number of values replaced
+#: includes/Admin/AdminDashboard.php:411
+#, php-format
+msgid "%d Wert ersetzt"
+msgid_plural "%d Werte ersetzt"
+msgstr[0] "%d luach ionadaithe"
+msgstr[1] "%d luach ionadaithe"
+msgstr[2] "%d luach ionadaithe"
+msgstr[3] "%d luach ionadaithe"
+msgstr[4] "%d luach ionadaithe"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Typ"
+msgstr "Cineál"
+
+#: includes/Admin/AdminDashboard.php:416
+msgid "Wert"
+msgstr "Luach"
+
+#: includes/Admin/AdminDashboard.php:437
+msgid "Welche Typen ersetzt werden"
+msgstr "Cé na cineálacha a n-ionadaítear"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"Gilt für /sanitize, WP-CLI und den Simulator. Ein abgeschalteter Typ bleibt "
+"im Text stehen."
+msgstr ""
+"Baineann le /sanitize, WP-CLI agus an t-insamhlóir. Fanann cineál múchta sa "
+"téacs gan athrú."
+
+#: includes/Admin/AdminDashboard.php:443
+msgid "Typen"
+msgstr "Cineálacha"
+
+#: includes/Admin/AdminDashboard.php:454 includes/Admin/AdminDashboard.php:455
+msgid "Deinstallation"
+msgstr "Díshuiteáil"
+
+#: includes/Admin/AdminDashboard.php:459
+msgid ""
+"Beim Löschen des Plugins alle Optionen sowie die Sitzungs- und "
+"Protokolltabellen entfernen (Standard: aus, Protokoll bleibt erhalten)"
+msgstr ""
+"Agus an breiseán á scriosadh, bain gach rogha mar aon le táblaí na seisiún "
+"agus an loga (réamhshocrú: múchta, coimeádtar an loga)"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "Speichern"
+msgstr "Sábháil"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid "Alle Typen einschalten"
+msgstr "Cuir gach cineál ar siúl"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid ""
+"Es gibt keine Einstellung für einen KI-Anbieter oder eine Aufbewahrungszeit: "
+"Das Plugin ist mit keinem Anbieter verbunden und speichert die Zuordnung "
+"nicht. Sitzungs- und Protokollzeilen bleiben beim Löschen des Plugins "
+"erhalten, sofern die Option zur Deinstallation oben nicht eingeschaltet ist."
+msgstr ""
+"Níl aon socrú ann do sholáthraí IS ná do thréimhse coinneála: níl an "
+"breiseán ceangailte le soláthraí ar bith agus ní stórálann sé an mapáil. "
+"Coimeádtar rónna seisiúin agus loga nuair a scriostar an breiseán mura "
+"gcuirtear an rogha díshuiteála thuas ar siúl."
+
+#: includes/Admin/AdminDashboard.php:485
+msgid ""
+"Kette geprüft: jede versiegelte Zeile passt zu ihrem Siegel und zur vorigen "
+"Zeile."
+msgstr ""
+"Slabhra fíoraithe: luíonn gach ró séalaithe lena shéala féin agus leis an ró "
+"roimhe sin."
+
+#: includes/Admin/AdminDashboard.php:486
+msgid "Noch keine Protokollzeilen."
+msgstr "Níl aon rónna loga ann fós."
+
+#: includes/Admin/AdminDashboard.php:487
+msgid ""
+"Nur Zeilen aus der Zeit vor der Kette: nichts ist versiegelt, nichts lässt "
+"sich prüfen."
+msgstr ""
+"Rónna ó roimh an slabhra amháin: níl aon rud séalaithe agus ní féidir aon "
+"rud a fhíorú."
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Kette gebrochen."
+msgstr "Slabhra briste."
+
+#. translators: 1: sealed rows, 2: rows written before the chain
+#: includes/Admin/AdminDashboard.php:503
+#, php-format
+msgid "%1$d versiegelt, %2$d vor der Kette."
+msgstr "%1$d séalaithe, %2$d roimh an slabhra."
+
+#: includes/Admin/AdminDashboard.php:507
+msgid ""
+"Eine Zeile hält fest, dass /sanitize aufgerufen wurde und welche Typen "
+"gefunden wurden, nicht den Text und nicht, ob oder wohin er gesendet wurde. "
+"Zeilen vor der Kette stammen aus früheren Versionen, darunter Beispielzeilen "
+"des entfernten Demo-Knopfs. Wer die Datenbank und wp-config.php schreiben "
+"kann, kann die Kette neu versiegeln."
+msgstr ""
+"Taifeadann ró gur glaodh /sanitize agus cé na cineálacha a aimsíodh, ní an "
+"téacs ná ar seoladh é nó cá háit. Tagann rónna roimh an slabhra ó leaganacha "
+"níos sine, lena n-áirítear rónna samplacha ón gcnaipe taispeána a baineadh. "
+"Is féidir le haon duine a bhfuil cead scríofa aige sa bhunachar sonraí agus "
+"in wp-config.php an slabhra a athshéalú."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "Nr."
+msgstr "Uimh."
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Sitzung"
+msgstr "Seisiún"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid "Aktion"
+msgstr "Gníomh"
+
+#: includes/Admin/AdminDashboard.php:515
+msgid "Gefundene Typen"
+msgstr "Cineálacha aimsithe"
+
+#: includes/Admin/AdminDashboard.php:516
+msgid "Kette"
+msgstr "Slabhra"
+
+#: includes/Admin/AdminDashboard.php:517
+msgid "Zeit (UTC)"
+msgstr "Am (UTC)"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "vor der Kette"
+msgstr "roimh an slabhra"
+
+#: includes/Admin/AdminDashboard.php:527
+msgid "versiegelt"
+msgstr "séalaithe"
+
+#: includes/Admin/AdminDashboard.php:534
+msgid "Keine Zeilen."
+msgstr "Gan rónna."
+
+#: includes/Admin/AdminDashboard.php:546
+msgid "Platzhalter"
+msgstr "Ionadóirí"
+
+#: includes/Admin/AdminDashboard.php:547
+msgid ""
+"Ein Wert wird durch {{TYP_…}} ersetzt. Der Teil nach dem Typ ist ein HMAC "
+"des Werts mit einem Zufallsschlüssel je Aufruf; ohne die Zuordnung lässt er "
+"sich nicht zurückrechnen."
+msgstr ""
+"Cuirtear {{CINEÁL_…}} in áit luacha. Is HMAC den luach le heochair randamach "
+"in aghaidh an ghlao an chuid i ndiaidh an chineáil; gan an mapáil ní féidir "
+"é a ríomh siar."
+
+#: includes/Admin/AdminDashboard.php:550
+msgid "Pseudonymisierung, nicht Anonymisierung"
+msgstr "Bréagainmniú, ní anaithnidiú"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid ""
+"Wer die Zuordnung hat, stellt die Werte wieder her. Solche Daten nennt die "
+"DSGVO pseudonymisiert (Art. 4 Nr. 5); nach Erwägungsgrund 26 bleiben sie "
+"Informationen über eine identifizierbare Person. Werte, die das Plugin nicht "
+"erkennt, bleiben ohnehin im Klartext."
+msgstr ""
+"Athchóiríonn an té a bhfuil an mapáil aige na luachanna. Tugann RGCS sonraí "
+"bréagainmnithe ar shonraí den sórt sin (Airteagal 4(5)); de réir Aithris 26 "
+"is faisnéis faoi dhuine inaitheanta iad fós. Fanann luachanna neamhaimsithe "
+"i ngnáth-théacs."
+
+#: includes/Admin/AdminDashboard.php:554
+msgid "Wiedereinsetzen"
+msgstr "Athchur"
+
+#: includes/Admin/AdminDashboard.php:555
+msgid ""
+"/rehydrate ersetzt die Platzhalter in einer Antwort auf dem WordPress-Server "
+"durch die Werte aus der mitgesandten Zuordnung."
+msgstr ""
+"Cuireann /rehydrate na luachanna ón mapáil a cuireadh ar fáil in áit na n-"
+"ionadóirí i bhfreagra ar fhreastalaí WordPress."
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Was das Plugin nicht entscheidet"
+msgstr "An méid nach gcinnfidh an breiseán"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid ""
+"Ob ein Text an einen Dienstleister gehen darf und unter welchen Bedingungen "
+"(§ 203 StGB, § 43e BRAO, DSGVO), entscheidet das Plugin nicht, und es stellt "
+"keine Bescheinigung darüber aus."
+msgstr ""
+"Ní chinneann an breiseán an féidir téacs a thabhairt do sholáthraí seirbhíse "
+"ná faoi cé na coinníollacha (§ 203 StGB, § 43e BRAO, RGCS), agus ní eisíonn "
+"sé aon deimhniú air sin."
+
+#: includes/Integrations/EcosystemBridge.php:43
+msgid "WM Kanzlei Sanitizer Statistik"
+msgstr "Staitisticí WM Kanzlei Sanitizer"
+
+#: includes/Integrations/EcosystemBridge.php:56
+msgid "WM Kanzlei Sanitizer Kennzahl"
+msgstr "Táscaire WM Kanzlei Sanitizer"
+
+#: includes/Integrations/EcosystemBridge.php:60
+msgid ""
+"Gibt aggregierte Zähler des KI-Sanitizers aus (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+msgstr ""
+"Aschuireann sé áiritheoirí comhiomlána ón nGlantóir IS (sessions, replaced, "
+"audit_rows, active_types, chain_status)."
+
+#: includes/Integrations/EcosystemBridge.php:64
+msgid "Kennzahl"
+msgstr "Táscaire"
+
+#: includes/Integrations/EcosystemBridge.php:85
+msgid "Kettenstatus"
+msgstr "Stádas an tslabhra"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

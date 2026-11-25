@@ -1,0 +1,21 @@
+# WM Kanzlei AI Sanitizer
+
+> WordPress plugin that replaces court file numbers, IBANs, e-mail addresses, 11-digit tax IDs, German phone numbers, names after a title or role and amounts in a text with placeholders (`{{TYPE_hex}}`) and puts the values back, through REST routes (`wm-kanzlei/v1`), WP-CLI (`wp kanzlei sanitize`) and a German admin simulator. It logs each call in an HMAC-chained table and sends nothing to AI providers.
+
+## Overview
+
+`wm-kanzlei-ai-sanitizer` is a WordPress plugin developed with an agentic workflow (AI coding agents). Detection is a set of regular expressions: names without a title, addresses, dates of birth, most ID numbers and health data are not detected. The placeholder mapping is returned to the caller and not stored; the result is pseudonymised text. The plugin does not assess whether a text may be given to a service provider under § 203 StGB, § 43e BRAO or the DSGVO, and it issues no certificates.
+
+## Standards
+
+- PHP 8.2+ with strict types
+- No outbound requests, no assets from other hosts
+- REST arguments declared; invalid UTF-8 refused; audit rows sealed with HMAC and verified
+- Standalone test suite with a mutation check, PHPUnit unit tests
+- Version 1.2.2.
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-kanzlei-ai-sanitizer/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-kanzlei-ai-sanitizer
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-kanzlei-ai-sanitizer/issues only · no private support · AS IS / no liability (SUPPORT.md)
